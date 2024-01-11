@@ -3,7 +3,7 @@ from typing import Union, Dict, Optional, List, Tuple, AnyStr
 import aiosqlite
 import asyncpg
 import jsonpickle
-from aiogram.dispatcher.storage import BaseStorage
+from aiogram.fsm.storage.base import BaseStorage
 
 
 class SQLiteStorage(BaseStorage):
